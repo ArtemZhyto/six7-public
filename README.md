@@ -1,159 +1,91 @@
 <div align="center">
-  <h1>Phys&Math education</h1>
-  <p><strong>Educational web platform for advanced mathematics and physics</strong></p>
-  <p>(full cycle: design, frontend, backend, server, deployment)</p>
+  <h1>Phys&Math Education Platform</h1>
+  <p><strong>A high-performance educational ecosystem for advanced Mathematics and Physics</strong></p>
+  <p><em>Engineered for scalability: from custom architectural planning to production-ready deployment</em></p>
 </div>
 
 <hr />
 
 <div align="center">
-	<img src="./media/demo1.gif"
-			 alt="Platform Demo"
-			 width="100%"
+	<img src="./media/demo1.gif" 
+			 alt="Platform Demo" 
+			 width="100%" 
 			 style="max-width: 800px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"/>
 </div>
 
-<h2>🚀 Technology Stack</h2>
+## 🛠 Engineering Stack
 
-<h3>Frontend</h3>
-<ul>
-  <li><b>Framework</b>: Next.js 15 (App Router, SSR, CSR, SSG)</li>
-  <li><b>Language</b>: TypeScript</li>
-  <li><b>Styling</b>: TailwindCSS, SASS/SCSS</li>
-  <li><b>State Management</b>: React Hooks (useState, useEffect, useMemo)</li>
-  <li><b>Routing</b>: Next.js App Router with middleware</li>
-</ul>
+### Frontend & Core Logic
+* **Framework**: Next.js 15 (App Router) — utilizing SSR, CSR, and SSG for optimal performance and SEO.
+* **Language**: TypeScript (Strict mode) for robust, type-safe development.
+* **Styling**: TailwindCSS & SASS/SCSS for modular UI architecture.
+* **State Management**: Optimized React Hooks workflow with middleware-based routing.
 
-<h3>Backend</h3>
-<ul>
-  <li><b>Runtime</b>: Node.js with Express.js</li>
-  <li><b>Database</b>: PostgreSQL with Prisma ORM</li>
-  <li><b>Authentication</b>: JWT (access/refresh tokens), secure cookies</li>
-  <li><b>Real-time</b>: Socket.IO for real-time messaging</li>
-  <li><b>Email</b>: Nodemailer for password recovery and notifications</li>
-</ul>
-
-<h3>Infrastructure & DevOps</h3>
-<ul>
-  <li><b>Server</b>: VPS with Ubuntu</li>
-  <li><b>Web Server</b>: Nginx (reverse proxy, SSL termination)</li>
-  <li><b>Process Management</b>: PM2 for Node.js applications</li>
-  <li><b>Security</b>: SSL certificates, secure headers</li>
-  <li><b>Logging</b>: Winston for logs (info, errors, requests)</li>
-</ul>
+### Backend & Data Layers
+* **Runtime**: Node.js with Express.js.
+* **Database**: PostgreSQL with Prisma ORM for type-safe queries.
+* **Caching & Sessions**: Redis-backed session management and data caching.
+* **Communication**: Socket.IO for real-time bidirectional messaging and live updates.
+* **Security**: JWT-based authentication (Access/Refresh tokens) with secure, encrypted cookies.
 
 <div align="center">
-	<img src="./media/demo2.gif"
-			 alt="Platform Demo"
-			 width="90%"
+	<img src="./media/demo2.gif" 
+			 alt="User Interface Demo" 
+			 width="90%" 
 			 style="max-width: 800px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"/>
 </div>
 
-<h2>📚 Platform Functionality</h2>
+## 📚 Core Functionality
 
-<h3>🔐 Authentication System & Security</h3>
-<ul>
-  <li>Registration with access codes</li>
-  <li>Password recovery via email with confirmation</li>
-  <li>Secure cookies and sessions</li>
-  <li>Middleware for access rights verification</li>
-</ul>
+### 🧠 Algorithmic Task Generation
+The platform features deep integration with the **Math Tasks Generator** module.
+* **Dynamic Content**: Automated generation of mathematical problems based on predefined algorithmic logic.
+* **Adaptive Learning**: Intelligent task distribution categorized by grades (5-9) and national exam standards (NMT/ZNO).
+* **Automated Evaluation**: Real-time checking system with error analysis and personalized improvement recommendations.
 
-<h3>👨‍🎓 Educational Functionality</h3>
-<ul>
-  <li>Adaptive learning system by grades (5-9, NMT/ZNO)</li>
-  <li>Structured thematic system (sections → topics → tasks)</li>
-  <li>Theoretical materials with examples</li>
-  <li>Practical tasks with automatic checking</li>
-  <li>Detailed error analysis and recommendations</li>
-  <li>Ability to retake tasks to improve results</li>
-</ul>
-
-<h3>📊 Personal Account</h3>
-<ul>
-  <li>History of completed tests and results</li>
-  <li>Progress tracking by topics</li>
-</ul>
-
-<h3>🛠️ Administrative Panel</h3>
-<ul>
-  <li>User management (students, administrators)</li>
-  <li>Access code generation and management</li>
-</ul>
-
-<h3>📱 User Experience</h3>
-<ul>
-  <li>Responsive design for all devices</li>
-  <li>Intuitive interface with clear navigation</li>
-  <li>Fast responses and optimized loading</li>
-  <li>SSR for better SEO optimization and security</li>
-  <li>Error handling (404, 500)</li>
-</ul>
-
-<h3>🔔 Communication & Notifications</h3>
-<ul>
-  <li>Internal messaging system</li>
-  <li>Live updates via WebSocket</li>
-  <li>Email notifications about events</li>
-  <li>Notifications about new tasks and results</li>
-</ul>
+### 🔐 Enterprise-Grade Security
+* Multi-tier authentication system with unique access code registration.
+* Secure password recovery pipelines via Nodemailer.
+* Robust middleware layers for granular access control (Student vs. Admin).
 
 <div align="center">
-	<img src="./media/demo3.gif"
-			 alt="Platform Demo"
-			 width="90%"
+	<img src="./media/demo3.gif" 
+			 alt="Educational Process Demo" 
+			 width="90%" 
 			 style="max-width: 800px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"/>
 </div>
 
-<h2>🏗️ Project Architecture</h2>
+## 🏗️ System Architecture & Infrastructure
 
-<h3>Frontend Structure</h3>
-<ul>
-  <li>App Router for routing</li>
-  <li>Component-based approach with reusability</li>
-  <li>TypeScript for typing and security</li>
-  <li>Image optimization via Next.js Image</li>
-</ul>
+### Infrastructure & DevOps
+* **Environment**: VPS (Ubuntu) managed via Nginx (Reverse Proxy & SSL Termination).
+* **Process Management**: PM2 for seamless zero-downtime deployments.
+* **Security**: Enforced SSL/TLS certificates and hardened security headers.
+* **Observability**: Centralized logging via Winston (monitoring requests, errors, and system health).
 
-<h3>Backend Structure</h3>
-<ul>
-  <li>REST API with clear endpoint structure</li>
-  <li>Modular architecture controllers/services</li>
-  <li>Prisma ORM for secure database operations</li>
-  <li>Middleware for authorization and validation</li>
-</ul>
-
-<h3>Database</h3>
-<ul>
-  <li>PostgreSQL as main database</li>
-  <li>Redis for caching and sessions</li>
-  <li>Structured schema for educational content</li>
-  <li>Optimized queries for fast performance</li>
-</ul>
+### Modular Backend
+Built with a **Services/Controllers** pattern to ensure modularity. Prisma ORM ensures the database schema is always synchronized with the application logic, while **Redis** offloads the primary PostgreSQL database for high-frequency session verification.
 
 <hr />
 
 <div align="center">
-	<img src="./media/demo4.gif"
-			 alt="Platform Demo"
-			 width="90%"
+	<img src="./media/demo4.gif" 
+			 alt="Admin Panel Demo" 
+			 width="90%" 
 			 style="max-width: 800px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"/>
 </div>
 
 <div align="center">
-  <h3>🎯 Key Advantages</h3>
-  <p>✅ Full control over all system components</p>
-  <p>✅ Scalable architecture for future development</p>
-  <p>✅ Secure and stable production operation</p>
-  <p>✅ Optimized performance and UX</p>
+  <h3>🎯 Engineering Values</h3>
+  <p><b>Scalability</b>: Built to handle increasing content volumes | <b>Reliability</b>: Fault-tolerant production environment | <b>Clean Code</b>: Maintainable modular codebase</p>
 
   <br />
 
   <h3>👨‍💻 Developer</h3>
-  <p><strong>Artem_Zhyto</strong></p>
-  <p>GitHub: https://github.com/ArtemZhyto</p>
+  <p><strong>Artem Zhyto</strong></p>
+  <p><a href="https://github.com/ArtemZhyto">GitHub Profile</a></p>
 
   <br />
 
-  <p><strong>© 2025 - All rights reserved</strong></p>
+  <p><strong>© 2026 — Built with precision and logic.</strong></p>
 </div>
