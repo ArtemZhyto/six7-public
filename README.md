@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Phys&Math Education Platform</h1>
+  <h1>Six7 - MATH & PHYSICS EDUCATION Platform</h1>
   <p><strong>A modern educational platform for Mathematics and Physics</strong></p>
   <p><em>Designed with scalability, performance, and maintainability in mind.</em></p>
 </div>
